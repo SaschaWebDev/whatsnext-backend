@@ -4,6 +4,8 @@
   "description": "A clean code backend for my whatsnext frontend which url can be found in readme.",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,5 +25,8 @@
     "helmet": "^4.6.0",
     "morgan": "^1.10.0",
     "typingdna-verify-client": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
   }
 }
